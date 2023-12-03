@@ -1,12 +1,11 @@
+// contact.js
 import React from 'react';
-// motion
 import { motion } from 'framer-motion';
-// variants
 import { fadeIn } from '../variants';
 
 const Contact = () => {
   return (
-    <section className='py-16 lg:section' id='contact'>
+    <section className='py-16 lg:section' id='contact' style={{ marginTop: '21rem' }}>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text */}
@@ -18,9 +17,8 @@ const Contact = () => {
             className='flex-1 flex justify-start items-center'
           >
             <div>
-              <h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>
-              Entrer en contact
-              </h4>
+            <h4 className='h2 text-accent mb-[20px] lg:mb-0'>ENTRER EN CONTACT</h4>
+
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
                 Travaillons <br /> ensemble!
               </h2>

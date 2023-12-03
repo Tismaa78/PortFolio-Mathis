@@ -39,11 +39,11 @@ const Banner = () => {
               <span className='text-white mr-4'>Je suis</span>
               <TypeAnimation
                 sequence={[
-                  'Développeur',
+                  'ETUDIANT',
                   2000,
-                  'Programmeur',
+                  'PROGRAMMEUR',
                   2000,
-                  'Etudiant',
+                  'DEVELOPPEUR',
                   2000,
                 ]}
                 speed={50}
@@ -60,7 +60,7 @@ const Banner = () => {
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
             Je m'appelle Mathis Roussel et je suis actuellement en première année de BTS SIO section SLAM au Lycée Jean Vilar de Plaisir.
-            Mes spécialitées sont le développement et la programmation.
+            Mes spécialités sont le développement et la programmation.
             
             </motion.p>
             <motion.div

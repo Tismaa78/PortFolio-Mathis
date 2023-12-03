@@ -1,14 +1,8 @@
 import React from 'react';
-// import icons
-import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import {
-  BsClipboardData,
-  BsBriefcase,
-  BsChatSquare,
-  BsChatSquareText,
-} from 'react-icons/bs';
-// link
+import { BiHomeAlt, BiUser, BiTask } from 'react-icons/bi';
+import { BsClipboardData, BsBriefcase, BsChatSquare, BsChatSquareText } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import StageIcon from '../assets/stage.png';  // Assurez-vous du chemin correct
 
 const Nav = () => {
   return (
@@ -53,6 +47,17 @@ const Nav = () => {
           >
             <BsBriefcase />
           </Link>
+          {/* Ajout de l'icône pour la page Stage */}
+          <Link
+            to='stage'
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+          >
+            <img src={StageIcon} alt='Stage' className='w-8 h-8' />
+          </Link>
+          {/* Fin de l'ajout */}
           <Link
             to='contact'
             activeClass='active'

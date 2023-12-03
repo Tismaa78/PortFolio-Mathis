@@ -14,7 +14,7 @@ const Work = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-10'>
           <motion.div
-            variants={fadeIn('right', 0.)}
+            variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
@@ -27,10 +27,10 @@ const Work = () => {
                 Technologique.
               </h2>
               <p className='max-w-sm mb-16'>
-                Le sujet de ma veille technologique est sur les crypto-monnaie et la blockchain, c'est un sujet d'actualité qui ne cesse de faire débat.
+                Le sujet de ma veille technologique porte sur les crypto-monnaies et la blockchain, c'est un sujet d'actualité qui ne cesse de faire débat.
               </p>
               <a href="https://www.pearltrees.com/tismaa78" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-sm '>Voir le projet</button>
+                <button className='btn btn-sm'>Voir le projet</button>
               </a>
             </div>
             {/* image */}
@@ -49,12 +49,12 @@ const Work = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>'Voir le projet' pour la veille complète </span>
+                <span className='text-3xl text-white'> 'Voir le projet' pour la veille complète </span>
               </div>
             </div>
           </motion.div>
           <motion.div
-            variants={fadeIn('left', 0.2)}
+            variants={fadeIn('left', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
@@ -76,7 +76,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>'Voir le projet' pour la veille complète </span>
+                <span className='text-3xl text-white'> 'Voir le projet' pour la veille complète </span>
               </div>
             </div>
             {/* image */}
@@ -95,7 +95,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>'Voir le projet' pour la veille complète </span>
+                <span className='text-3xl text-white'> 'Voir le projet' pour la veille complète </span>
               </div>
             </div>
           </motion.div>

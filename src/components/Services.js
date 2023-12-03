@@ -42,15 +42,14 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'
+            className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0 mt-8'  // Ajout de la marge supérieure
           >
             <h2 className='h2 text-accent mb-6'>Mes compétences.</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              Je possède une familiarité avec ces languages, mais je ne suis pas expert.
+              Je possède une familiarité avec ces langages, mais je ne suis pas expert.
               Cela viendra avec le temps.
             </h3>
             <a href="https://github.com/Tismaa78" className="btn btn-sm">Voir mon travail</a>
-
           </motion.div>
           {/* services */}
           <motion.div
