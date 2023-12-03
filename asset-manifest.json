@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/PortFolio-Mathis/static/css/main.d220d9d4.css",
-    "main.js": "/PortFolio-Mathis/static/js/main.ae156b67.js",
+    "main.css": "/PortFolio-Mathis/static/css/main.42076e20.css",
+    "main.js": "/PortFolio-Mathis/static/js/main.a5798743.js",
+    "static/media/video.mp4": "/PortFolio-Mathis/static/media/video.e4dab95728d640ed8fb9.mp4",
     "static/media/avatar.svg": "/PortFolio-Mathis/static/media/avatar.add0966d1d63e70b7e86c104beeaa9f1.svg",
     "static/media/site-bg.jpg": "/PortFolio-Mathis/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/crypto1.PNG": "/PortFolio-Mathis/static/media/crypto1.6ff3acb43b5d7187f9ee.PNG",
@@ -9,13 +10,15 @@
     "static/media/imageordi.png": "/PortFolio-Mathis/static/media/imageordi.764f91b29e93eb087192.png",
     "static/media/blockchain.JPG": "/PortFolio-Mathis/static/media/blockchain.110c0f69241fdb6a8baf.JPG",
     "static/media/crypto2.JPG": "/PortFolio-Mathis/static/media/crypto2.378e320713fe535de65b.JPG",
+    "static/media/kontron.png": "/PortFolio-Mathis/static/media/kontron.90ab4b607957f93940bd.png",
     "static/media/logo2.PNG": "/PortFolio-Mathis/static/media/logo2.3885fbdae98a2ecfdd73.PNG",
+    "static/media/stage.png": "/PortFolio-Mathis/static/media/stage.ba82d221e725d0a9ec7a.png",
     "index.html": "/PortFolio-Mathis/index.html",
-    "main.d220d9d4.css.map": "/PortFolio-Mathis/static/css/main.d220d9d4.css.map",
-    "main.ae156b67.js.map": "/PortFolio-Mathis/static/js/main.ae156b67.js.map"
+    "main.42076e20.css.map": "/PortFolio-Mathis/static/css/main.42076e20.css.map",
+    "main.a5798743.js.map": "/PortFolio-Mathis/static/js/main.a5798743.js.map"
   },
   "entrypoints": [
-    "static/css/main.d220d9d4.css",
-    "static/js/main.ae156b67.js"
+    "static/css/main.42076e20.css",
+    "static/js/main.a5798743.js"
   ]
 }
